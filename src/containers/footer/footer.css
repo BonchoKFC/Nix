@@ -1,0 +1,139 @@
+.nix__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer); /* Ensure this variable is defined in your CSS */
+}
+
+.nix__footer-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.nix__footer-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.nix__footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-bottom: 10rem;
+    cursor: pointer;
+}
+
+.nix__footer-btn p {
+    font-size: 18px;
+    font-family: var(--font-family);
+    line-height: 21px;
+    color: #fff;
+    word-spacing: 2px;
+}
+
+.nix__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+
+.nix__footer-links div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.nix__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.nix__footer-links_logo img {
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+
+.nix__footer-links_logo p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+}
+
+.nix__footer-links_div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.nix__footer-links_div h4, .nix__footer-links_div p {
+    font-family: var(--font-family);
+    color: #fff;
+}
+
+.nix__footer-links_div h4 {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+}
+
+.nix__footer-links_div p {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.nix__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.nix__footer-copyright p {
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+}
+
+/* Adjustments for responsive design */
+@media screen and (max-width: 850px) {
+    .nix__footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nix__footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .nix__footer-links div {
+        margin: 1rem 0;
+    }
+
+    .nix__footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nix__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
