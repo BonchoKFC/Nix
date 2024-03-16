@@ -15,8 +15,8 @@ a {
 }
 
 .gradient_bg {
-    /* global 92%+ browsers support */
-    background: linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+  background: rgb(16,32,47);
+  background: linear-gradient(163deg, rgba(16,32,47,1) 4%, rgba(244,246,246,1) 47%, rgba(230,233,230,1) 100%);
 }
 
 .gradient_text {
@@ -27,11 +27,11 @@ a {
 
 }
 
-.section__padding:{
+.section__padding { 
     padding: 4rem 6rem;
 }
 
-.section__margin:{
+.section__margin {
     margin: 4rem 6rem;
 }
 
